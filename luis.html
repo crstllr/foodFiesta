@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+        header {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 20%;
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.buttons button {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.missionAndvision {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    color: white;
+}
+
+.mAv-text {
+    text-align: center;
+}
+
+.container.prelim {
+    flex-direction: column;
+}
+
+.prelim-img {
+    text-align: center;
+}
+
+.text-inside {
+    padding: 15px;
+    font-size: 14px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid lightblue;
+    padding: 10px;
+}
+
+th {
+    background-color: grey;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Luis Alberto B. Retuta</h1>
+            <h4>BS Computer Science</h4>
+        </div>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">About</a>
+            <a href="#">Activity</a>
+            <a href="#">Schedule</a>
+            <a href="#">Info</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="intro">
+            <p>Hello, I am Luis Alberto B. Retuta, a computer science student.</p>
+            <p>I am a first-year student and I am pursuing this path for a better future for myself.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="buttons">
+            <button>ABOUT ME</button>
+            <button>ACTIVITY</button>
+            <button>Activity</button>
+        </div>
+        <img src="Insert pic" alt="Profile Picture">
+    </div>
+<div class="container">
+    <div class="missionAndvision">
+        <div class="mAv-text">
+            <h1>Mission</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam adipisci recusandae totam pariatur sunt beatae maiores doloremque sint consequuntur atque, ipsum unde nihil amet asperiores aperiam iste et quisquam accusamus?</p>
+        </div>
+        <div class="mAv-text">
+            <h1>Vision</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam adipisci recusandae totam pariatur sunt beatae maiores doloremque sint consequuntur atque, ipsum unde nihil amet asperiores aperiam iste et quisquam accusamus?</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h1 style="color: white;">Prelim</h1>
+</div>
+<div class="container">
+    <div class="prelim">
+        <div class="prelim-img">
+            <img src="profile.jpg" alt="Activity Image">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+        <div class="prelim-img">
+            <img src="profile.jpg" alt="Activity Image">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+        <div class="prelim-img">
+            <img src="profile.jpg" alt="Activity Image">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<table>
+    <thead>
+    <tr bgcolor="Grey">
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr bgcolor="lightgrey">
+        <td>7:00am - 8:30am<br>(COM101)</td>
+        <td>7:00am - 10:00am<br>(CCS103)</td>
+        <td></td>
+        <td>7:00am - 8:30am<br>(COM101)</td>
+        <td>7:00am - 10:00am<br>(CCS105)</td>
+        <td rowspan="6">8:00am - 12:00pm<br>(NSTP)</td>
+    </tr>
+    <tr bgcolor="lightgrey">
+        <td>8:30am - 10:00am<br>(HIS101)</td>
+        <td>10:00am - 11:30am<br>(HMN101)</td>
+        <td></td>
+        <td>10:00am - 11:30am<br>(HIS101)</td>
+        <td>10:00am - 11:30am<br>(HMN101)</td>
+        <td></td>
+    </tr>
+    <tr bgcolor="lightblue">
+        <td>2:00pm - 
